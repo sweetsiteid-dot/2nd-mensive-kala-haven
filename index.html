@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy 2nd Mensive, Sayangkuu 🖤</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- =========================
+     PASSWORD SCREEN
+========================= -->
+
+<div id="passwordScreen">
+
+    <div class="password-overlay">
+
+        <div class="password-box">
+
+            <h1>🖤</h1>
+
+            <h2>A Little Surprise</h2>
+
+            <p>
+                Happy 2nd Mensive, Sayangkuu.
+                <br><br>
+                Ada sesuatu kecil yang aku siapin buat kamu.
+            </p>
+
+            <input
+                type="password"
+                id="passwordInput"
+                placeholder="Enter Secret Code"
+            >
+
+            <button onclick="checkPassword()">
+                Unlock 🖤
+            </button>
+
+            <p class="hint">
+                A little secret from Kala.
+            </p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================
+     WEBSITE CONTENT
+========================= -->
+
+<div id="websiteContent">
+
+<audio id="music" loop>
+    <source src="last-night-on-earth.mp3" type="audio/mpeg">
+</audio>
+
+<div id="hearts"></div>
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <p class="small-title">
+            FROM KALA, WITH LOVE
+        </p>
+
+        <h1>
+            Happy 2nd
+        </h1>
+
+        <h2>
+            Mensive, Sayangkuu. 🖤
+        </h2>
+
+        <p>
+            Two months of us.
+            <br><br>
+            And somehow,
+            I still want more days,
+            more memories,
+            and more moments with you.
+        </p>
+
+        <button onclick="openGift()">
+            Open My Heart 🖤
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     MESSAGE
+========================= -->
+
+<section id="giftSection" class="section">
+
+    <div class="glass-card">
+
+        <span class="section-number">01</span>
+
+        <h2>
+            Tiba-Tiba Udah 2 Bulan
+        </h2>
+
+        <p>
+
+            Tiba tiba udah 2 bulan aja kita,
+            perasaan kemarin aku masih ngejar ngejar kamu
+            walau jawaban kamu pasti itu itu aja wkkwk.
+
+            <br><br>
+
+            Tapi tau ga?
+
+            Setiap kamu ngomong
+            <b>"sabar"</b> gitu,
+            bukannya bikin aku nyerah
+            justru malah bikin aku makin semangat
+            buat ngejar kamu.
+
+            <br><br>
+
+            Usaha pasti ga bakal ngekhianatin hasil,
+            buktinya kamu jadi pacar aku sekarang 🤍.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     PHOTO GALLERY
+========================= -->
+
+<section class="section">
+
+    <span class="section-number">02</span>
+
+    <h2 class="section-title">
+        Our Little Memories 📸
+    </h2>
+
+    <p class="section-subtitle">
+        8 moments, countless feelings.
+    </p>
+
+    <div class="polaroid-container">
+
+        <div class="polaroid">
+            <img src="photo1.jpg" alt="Our Memory 1">
+            <span>Our beginning 🖤</span>
+        </div>
+
+        <div class="polaroid">
+            <img src="photo2.jpg" alt="Our Memory 2">
+            <span>Still my favorite.</span>
+        </div>
+
+        <div class="polaroid">
+            <img src="photo3.jpg" alt="Our Memory 3">
+            <span>Just us.</span>
+        </div>
+
+        <div class="polaroid">
+            <img src="photo4.jpg" alt="Our Memory 4">
+            <span>A moment to remember.</span>
+        </div>
+
+        <div class="polaroid">
+            <img src="photo5.jpg" alt="Our Memory 5">
+            <span>You make me smile.</span>
+        </div>
+
+        <div class="polaroid">
+            <img src="photo6.jpg" alt="Our Memory 6">
+            <span>My favorite person.</span>
+        </div>
+
+        <div class="polaroid">
+            <img src="photo7.jpg" alt="Our Memory 7">
+            <span>Another memory with you.</span>
+        </div>
+
+        <div class="polaroid">
+            <img src="photo8.jpg" alt="Our Memory 8">
+            <span>Forever sounds nice.</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     THANK YOU
+========================= -->
+
+<section class="section">
+
+    <span class="section-number">03</span>
+
+    <h2 class="section-title">
+        Thank You For Staying 🖤
+    </h2>
+
+    <div class="glass-card">
+
+        <p>
+
+            Kayaknya bisa setiap hari deh aku ngomong gini ke kamu,
+            kalau aku bener bener berterima kasih banget sama kamu.
+
+            <br><br>
+
+            Terima kasih yaa udah milih buat stay di sini sama aku.
+
+            <br><br>
+
+            Mungkin aku ga selalu bisa nunjukin
+            seberapa berartinya kamu buat aku,
+            tapi percayalah,
+            aku bersyukur banget bisa punya kamu.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FUTURE
+========================= -->
+
+<section class="section">
+
+    <span class="section-number">04</span>
+
+    <h2 class="section-title">
+        About Our Future
+    </h2>
+
+    <div class="glass-card">
+
+        <p>
+
+            Aku ga tau kedepannya bakal gimana,
+            toh masa depan emang ga ada yang tau kann.
+
+            <br><br>
+
+            Tapi aku tau,
+            kalau aku mau ngejalanin semuanya
+            sama kamu terus.
+
+            <br><br>
+
+            Semoga kita sama sama terus ya.
+
+            <br><br>
+
+            Aku pengen terus punya kamu
+            di setiap cerita yang bakal kita tulis
+            setelah ini.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     REASONS
+========================= -->
+
+<section class="section">
+
+    <span class="section-number">05</span>
+
+    <h2 class="section-title">
+        Why I Choose You 🖤
+    </h2>
+
+    <div class="cards">
+
+        <div class="reason-card">
+            <span>01</span>
+            <h3>Your Smile</h3>
+            <p>
+                Senyum kamu selalu punya cara sendiri
+                buat bikin hari aku lebih baik.
+            </p>
+        </div>
+
+        <div class="reason-card">
+            <span>02</span>
+            <h3>Your Patience</h3>
+            <p>
+                Bahkan ketika aku terlalu banyak tingkah,
+                kamu masih mau sabar sama aku.
+            </p>
+        </div>
+
+        <div class="reason-card">
+            <span>03</span>
+            <h3>Your Presence</h3>
+            <p>
+                Kamu ada aja udah cukup
+                buat bikin semuanya terasa lebih baik.
+            </p>
+        </div>
+
+        <div class="reason-card">
+            <span>04</span>
+            <h3>Your Heart</h3>
+            <p>
+                Aku suka cara kamu menjadi diri kamu sendiri.
+            </p>
+        </div>
+
+        <div class="reason-card">
+            <span>05</span>
+            <h3>Your "Sabar"</h3>
+            <p>
+                Kata sederhana yang dulu malah
+                bikin aku makin semangat ngejar kamu.
+            </p>
+        </div>
+
+        <div class="reason-card">
+            <span>06</span>
+            <h3>Everything About You</h3>
+            <p>
+                Karena pada akhirnya,
+                aku suka kamu sebagai kamu.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     APOLOGY
+========================= -->
+
+<section class="section">
+
+    <span class="section-number">06</span>
+
+    <h2 class="section-title">
+        One More Thing...
+    </h2>
+
+    <div class="glass-card">
+
+        <p>
+
+            Maafin aku kalau misalnya aku pernah bikin kamu sedih,
+            pernah bikin kamu kesel,
+            pokoknya pernah bikin kamu ngerasain
+            hal hal yang ga enak.
+
+            <br><br>
+
+            Aku janji bakal terus berusaha
+            buat terus jadi versi terbaiknya aku buat kamu.
+
+            <br><br>
+
+            Aku mungkin belum sempurna,
+            dan mungkin masih banyak kurangnya.
+
+            <br><br>
+
+            Tapi aku akan terus belajar,
+            terus berusaha,
+            dan terus memperbaiki diri
+            demi hubungan kita.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     LETTER
+========================= -->
+
+<section class="section">
+
+    <span class="section-number">07</span>
+
+    <h2 class="section-title">
+        💌 A Letter For Haven
+    </h2>
+
+    <div class="letter-box">
+
+        <p>
+
+            Happy 2nd Mensive Sayaang.
+
+            <br><br>
+
+            Ga kerasa ya,
+            ternyata kita udah sampai di bulan kedua.
+
+            <br><br>
+
+            Kalau dipikir pikir,
+            perjalanan kita mungkin baru sebentar,
+            tapi udah ada banyak banget hal
+            yang bikin aku bersyukur bisa kenal dan punya kamu.
+
+            <br><br>
+
+            Dari awal aku ngejar kamu,
+            dari jawaban kamu yang itu itu aja,
+            sampai akhirnya sekarang
+            kamu beneran jadi pacar aku.
+
+            <br><br>
+
+            Jujur,
+            aku masih suka ga percaya
+            kalau sekarang aku bisa manggil kamu
+            sebagai seseorang yang aku sayang.
+
+            <br><br>
+
+            Terima kasih karena udah memilih
+            untuk tetap tinggal di sini sama aku.
+
+            <br><br>
+
+            Aku ga tau perjalanan kita kedepannya
+            bakal seperti apa.
+
+            <br><br>
+
+            Tapi satu hal yang aku tau,
+            aku mau terus jalanin semuanya sama kamu.
+
+            <br><br>
+
+            Semoga dua bulan ini
+            bukan cuma menjadi awal,
+            tapi menjadi salah satu dari
+            banyak banget bulan yang akan kita lewati bersama.
+
+            <br><br>
+
+            Sekali lagi,
+            Happy 2nd Mensive Sayaang. 🖤
+
+            <br><br>
+
+            I love u more than three words ever could.
+
+            <br><br>
+
+            — Kala.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     FINAL
+========================= -->
+
+<section class="final-section">
+
+    <p>
+        TO MY BELOVED
+    </p>
+
+    <h2>
+        Haven
+    </h2>
+
+    <h1>
+        Happy 2nd Mensive 🖤
+    </h1>
+
+    <p>
+
+        Two months down,
+        hopefully countless more to go.
+
+        <br><br>
+
+        Thank you for being mine.
+
+    </p>
+
+</section>
+
+
+<!-- =========================
+     ENDING
+========================= -->
+
+<section class="ending">
+
+    <h2>
+        Made With Love 🖤
+    </h2>
+
+    <p>
+        From Kala.
+    </p>
+
+    <p>
+        For My Beloved, Haven.
+    </p>
+
+    <p>
+        2nd Mensive • 2026
+    </p>
+
+</section>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
